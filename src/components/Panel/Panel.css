@@ -1,0 +1,67 @@
+.panelBox{
+  width: 30%;
+  height: 100vh;
+  z-index: 99;
+  background-color:  white;
+  position: absolute;
+  left: 70vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+span{
+  color: black;
+  font-size: 1.5rem;
+}
+
+button{
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background:goldenrod;
+  color: white;
+  font-size: 1rem;
+}
+
+.panelBoxHiden{
+  display: none;
+}
+
+.panelBox2{
+  width: 30%;
+  height: 100vh;
+  z-index: 100;
+  background-color:  white;
+  position: absolute;
+  left: 70vw;
+}
+
+.form1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input{
+  margin: 0.5rem;
+}
+
+.button{
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background:goldenrod;
+  color: white;
+  font-size: 1rem;
+}
+
+.panelBoxHiden2{
+  display: none;
+}

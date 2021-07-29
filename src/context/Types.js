@@ -1,0 +1,1 @@
+export const POST_PARCELS = 'POST_PARCELS'
